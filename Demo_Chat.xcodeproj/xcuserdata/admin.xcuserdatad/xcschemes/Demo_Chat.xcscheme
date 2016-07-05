@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84163C0E1D2BF84B003BA2A6"
+               BuildableName = "Demo_Chat.app"
+               BlueprintName = "Demo_Chat"
+               ReferencedContainer = "container:Demo_Chat.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84163C271D2BF84B003BA2A6"
+               BuildableName = "Demo_ChatTests.xctest"
+               BlueprintName = "Demo_ChatTests"
+               ReferencedContainer = "container:Demo_Chat.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84163C321D2BF84B003BA2A6"
+               BuildableName = "Demo_ChatUITests.xctest"
+               BlueprintName = "Demo_ChatUITests"
+               ReferencedContainer = "container:Demo_Chat.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84163C0E1D2BF84B003BA2A6"
+            BuildableName = "Demo_Chat.app"
+            BlueprintName = "Demo_Chat"
+            ReferencedContainer = "container:Demo_Chat.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84163C0E1D2BF84B003BA2A6"
+            BuildableName = "Demo_Chat.app"
+            BlueprintName = "Demo_Chat"
+            ReferencedContainer = "container:Demo_Chat.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84163C0E1D2BF84B003BA2A6"
+            BuildableName = "Demo_Chat.app"
+            BlueprintName = "Demo_Chat"
+            ReferencedContainer = "container:Demo_Chat.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
